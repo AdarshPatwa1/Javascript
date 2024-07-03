@@ -12,7 +12,7 @@ console.log("Adarsh")
 let name = "Adarsh" //string datatype
 let age = 18  //number datatype
 let isLoggedIn = false // boolean datatype
-let state;
+let state;  //Undefined
 
 //primitive datatypes
 // number => 2 to power 53
@@ -28,3 +28,4 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+//type of used to identify the datatype 
