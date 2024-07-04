@@ -35,3 +35,30 @@ const myFunction = function(){  //Function Object
     console.log(typeof myFunction);  //console.log(typeof myFunction);  -Object Function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//*****************************************************************************************
+
+//Stack (Primitive)  -we get the copy of the variable declared
+//Heap (Non Primitive)  - we get the reference (Original Value) of the variable declared
+
+let myname = "Adarsh"
+
+let anothername = myname
+anothername = "Something"
+
+console.log(myname);
+console.log(anothername);
+
+let userone = {
+   email: "user@google.com",
+   upi: "user@ybl",
+
+}
+
+let usertwo = userone
+
+usertwo.email = "adarsh@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
