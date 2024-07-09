@@ -71,12 +71,12 @@ console.log(instructor);
 
 // {
 //     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "coursename": "js in hindi",  
 //     "price": "free"
 // }
 
 [
     {},
-    {},
+    {},   // json - similar to object
     {}
 ]
