@@ -23,7 +23,9 @@
     let intervalId;
 
     document.querySelector('#start').addEventListener('click',function(){
+        if(!intervalId){
     intervalId = setInterval(sayDate, 1000, "hi")
+        }
     });
 
     // const intervalId = setInterval(sayDate, 1000, "hi")
