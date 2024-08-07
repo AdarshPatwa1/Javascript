@@ -3,6 +3,8 @@
 
 // console.log(myName.trueLength);
 
+// functions,arrays,strings can be initiated through object prototype, but
+// object can not be initiated through functions, arrays, strings prototype because these are objects 
 
 let myHeros = ["thor", "spiderman"]
 
